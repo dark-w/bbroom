@@ -1,0 +1,8 @@
+[Unit]
+Description=TCP server base on thread pool
+
+[Service]
+ExecStart=/opt/bbroom-server/bbroom-server 172.16.6.17
+
+[Install]
+WantedBy=multi-user.target
